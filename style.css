@@ -1,7 +1,8 @@
 body{
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;  
+    padding-left: 10%;  /* Espaço na esquerda */
+    padding-right: 10%; /* Espaço na direita */
+    background-color: #ffffff;
 }
 
 #cabecalho{
@@ -19,11 +20,39 @@ body{
 
 
 #inicio{
-    padding: 20px;
+    padding: 5px;
     display: flex;
     justify-content: center;
     text-align: center;
     width: 100%;
-    height: 50vh;
-    background-color: aqua;
+    height: 100%;
+    border: #333 1px solid;
+    border-radius: 12px;
+    background-color: #898989;
+}
+
+#inicio div{
+    height: 50%;
+}
+
+#inicio img{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;   
+}
+
+
+#paises_sedes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pais_sede_img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 12px; 
+    border: #333 1px solid;  
 }
