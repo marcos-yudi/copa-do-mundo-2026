@@ -1,8 +1,7 @@
 body{
-    font-family: Arial, sans-serif;  
-    padding-left: 10%;  /* Espaço na esquerda */
-    padding-right: 10%; /* Espaço na direita */
-    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 #cabecalho{
@@ -20,39 +19,54 @@ body{
 
 
 #inicio{
-    padding: 5px;
+    padding: 20px;
     display: flex;
     justify-content: center;
     text-align: center;
     width: 100%;
-    height: 100%;
-    border: #333 1px solid;
-    border-radius: 12px;
-    background-color: #898989;
+    height: 50vh;
+    background-color: aqua;
 }
 
-#inicio div{
-    height: 50%;
-}
-
-#inicio img{
-    width: 100%;
-    height: auto;
-    border-radius: 12px;   
-}
-
-
-#paises_sedes{
-    display: flex;
-    justify-content: center;
+form {
     align-items: center;
-    flex-wrap: wrap;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    width: 700px;
+    display: flex;
+    padding: 50px;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
 }
-
-.pais_sede_img{
-    width: 300px;
-    height: 200px;
-    margin: 10px;
-    border-radius: 12px; 
-    border: #333 1px solid;  
+main {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+#botaoEnviar {
+    background-color: #28a754;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+#botaoEnviar:hover {
+    background-color: #218838;
 }
